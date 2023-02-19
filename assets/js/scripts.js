@@ -1,9 +1,9 @@
 $(document).ready(function () {
   "use strict";
   // redirect all pages to Contact
-  if (window.location.href.indexOf("Contact") == -1) {
-    window.location.href = "/Contact";
-  }
+  // if (window.location.href.indexOf("Contact") == -1) {
+  //   window.location.href = "/Contact";
+  // }
   /*-----------------------------------------------------------------
       Protect Website
     -------------------------------------------------------------------*/
