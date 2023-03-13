@@ -1,7 +1,10 @@
 $(document).ready(function () {
   "use strict";
   // redirect all pages
-  if (window.location.href.indexOf("maintenance") == -1) {
+  if (
+    window.location.href.indexOf("maintenance") == -1 &&
+    window.location.href.indexOf("kot-vn.github.io") > -1
+  ) {
     window.location.href = "/maintenance.html";
   }
   /*-----------------------------------------------------------------
